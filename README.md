@@ -1,21 +1,30 @@
-# service-tom
+# Project Name
 
-> Recommended restaurants page of Zagat
+> Project description
 
 ## Related Projects
 
-  - https://github.com/hrr42-fec5/service-allen
-  - https://github.com/hrr42-fec5/service-camryn
-  - https://github.com/hrr42-fec5/service-alex
+  - https://github.com/teamName/repo
+  - https://github.com/teamName/repo
+  - https://github.com/teamName/repo
+  - https://github.com/teamName/repo
 
 ## Table of Contents
 
 1. [Usage](#Usage)
-2. [Development](#development)
+1. [Requirements](#requirements)
+1. [Development](#development)
 
 ## Usage
 
 > Some usage instructions
+
+## Requirements
+
+An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
+
+- Node 6.13.0
+- etc
 
 ## Development
 
@@ -27,3 +36,4 @@ From within the root directory:
 npm install -g webpack
 npm install
 ```
+
