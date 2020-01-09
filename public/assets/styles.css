@@ -1,0 +1,44 @@
+html, body {
+  background-color: #ececed;
+  font-family: Helvetica, Arial, sans-serif;
+  padding:0;
+  margin: 0;
+}
+
+#nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+#container {
+  padding: 30px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas:
+    "blurb info"
+    "articles info";
+}
+
+#app2 {
+  grid-area: articles;
+  justify-self: end;
+  background-color: #fff;
+  width: 923px;
+}
+
+#blurb {
+  grid-area: blurb;
+  justify-self: end;
+}
+
+#info {
+  grid-area: info;
+  justify-self: start;
+}
+
+#app3 {
+  padding: 30px;
+  width: 1400px;
+  margin: 0 auto;
+}
