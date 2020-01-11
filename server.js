@@ -15,7 +15,7 @@ app.use(parser.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
 
-// app.use(proxy('/api/images', {target: 'http://localhost:3001/' }));
+app.use(proxy('/api/restaurants', {target: 'http://ec2-52-90-8-208.compute-1.amazonaws.com:3001' }));
 // app.use(proxy('/api/articles', {target: 'http://localhost:3003/' }));
 app.use(proxy('/api/restaurants', {target: 'http://ec2-52-53-141-120.us-west-1.compute.amazonaws.com' }));
 
